@@ -1,0 +1,18 @@
+.container{
+    border: 2px solid black;
+    display: flow-root;
+}
+
+#img_1{
+    height:150px;
+    width: 200px;
+    float: left;
+    background: #e603e6;
+}
+
+#img_2{
+    height:150px;
+    width: 200px;
+    float: right;
+    background: #e60303;
+}

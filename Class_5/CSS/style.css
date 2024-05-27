@@ -1,0 +1,35 @@
+div{
+    background: rgb(84, 221, 141);
+    color: rgb(157, 255, 0);
+    width: 300px;
+    height: 100px;
+    border: solid 3px rgb(188, 228, 45);
+    text-align: center;
+    margin-bottom: 5px;
+    transition: all 5s;
+}
+
+.div_1:hover{
+    
+    transform: translate(50px, 100px);
+}
+
+.div_2:hover{
+    transform: rotate(90deg);
+}
+
+.div_3:hover{
+    transform: scale(1, 2);
+    /* width: 400px;
+    height: 00px; */
+    /* transform: scaleY(2); */
+}
+
+.div_4:hover{
+    transform: skew(20deg);
+}
+
+.div_5:hover{
+    transform: rotate(180deg);
+    background-color: rgb(191, 64, 216);
+}

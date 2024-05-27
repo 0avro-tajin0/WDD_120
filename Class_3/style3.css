@@ -1,0 +1,20 @@
+h1{
+    background-color: aqua;
+    margin-top: 50px;
+    /* margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 150px; */
+
+    border: red solid 5px;
+    /* border-bottom: solid 2px blue;
+    border-left: groove 3px red;
+    border-right: 4px dashed green;
+    border-top: 6px yellowgreen dotted; */
+
+    /* padding: 20px; */
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    padding-top: 100px;
+    
+}

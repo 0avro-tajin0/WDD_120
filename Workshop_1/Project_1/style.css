@@ -1,0 +1,63 @@
+:root{
+    --primary_1 :rgb(236, 161, 108);
+    --btn_border:solid red 2px;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.navbar{
+    background-color: var(--primary_1);
+    border-radius: 10px;
+}
+
+.navbar ul{
+    overflow: auto;
+
+    margin: 10px auto;
+}
+
+.navbar li{
+float: left;
+list-style: none;
+margin: 13px 25px;
+}
+
+.navbar li a{
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.navbar li a:hover{
+    font-size: 18px;
+    color: black;
+}
+
+.search{
+    margin-top: 10px;
+    position: absolute;
+    right: 15px;
+}
+
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+#btn{
+    margin-left: 40%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: var(--btn_border);
+
+}
+

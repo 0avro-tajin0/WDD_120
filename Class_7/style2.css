@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+div{
+
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: #32afe9;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    animation-name: scale_item;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+
+
+@keyframes scale_item {
+
+    0%{
+        scale: 1 1;
+        background: #e93232;
+        left: 0;
+
+    }
+    40%{
+        rotate: 190deg;
+
+    }
+    50%{
+        scale: 1.5 1.5;
+        background: #5432e9;
+
+    }
+    100%{
+        scale: 1 1;
+        background: #32afe9;
+
+        }
+    
+}

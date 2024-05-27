@@ -1,0 +1,36 @@
+body{
+    background-color: #f8f9ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+button{
+    background-color: #fff;
+    color: #ff0000;
+    padding: .5em 1em;
+    font-size: 1.5em;
+    border: 1px solid #ff0000;
+    border-left-width: 5px;
+    letter-spacing: 0.1em;
+    background-image: linear-gradient(to left, #fff 50%, #ff0000 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-position: left;
+    color: #fff;
+}
+
+p{
+    font-size: 2em;
+    
+}
+p span{
+    color: #ff0000;
+}
